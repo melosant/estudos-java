@@ -8,7 +8,7 @@ package exercicios.introducao;
 */
 public class Ex05NumerosPrimos {
     public static void main(String[] args) {
-        int num = 17;
+        int num = 10;
         boolean isPrimo = true;
         for (int i = 2; i < num; i++){
             if (num % i == 0){
@@ -17,10 +17,13 @@ public class Ex05NumerosPrimos {
             }
         }
 
-        if (isPrimo == true && num > 1){
-            System.out.println(num + " É PRIMO.");
-        } else {
-            System.out.println(num + " não é PRIMO.");
-        }
+        String resp = (isPrimo == true && num > 1) ? num + " É PRIMO!" : num + " não é PRIMO.";
+        System.out.println(resp);
+
+//        if (isPrimo == true && num > 1){
+//            System.out.println(num + " É PRIMO.");
+//        } else {
+//            System.out.println(num + " não é PRIMO.");
+//        }
     }
 }
