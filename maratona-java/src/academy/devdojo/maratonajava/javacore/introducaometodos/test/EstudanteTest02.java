@@ -1,0 +1,21 @@
+package academy.devdojo.maratonajava.javacore.introducaometodos.test;
+
+import academy.devdojo.maratonajava.javacore.introducaometodos.dominio.Estudante;
+
+public class EstudanteTest02 {
+    public static void main(String[] args) {
+        Estudante estudante1 = new Estudante();
+        Estudante estudante2 = new Estudante();
+
+        estudante1.nome = "Chrollo";
+        estudante1.idade = 28;
+        estudante1.sexo = 'M';
+
+        estudante2.nome = "Shizuku";
+        estudante2.idade = 20;
+        estudante2.sexo = 'F';
+
+        estudante1.imprime();
+        estudante2.imprime();
+    }
+}
