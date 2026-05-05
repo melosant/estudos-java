@@ -5,7 +5,16 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
-    public void imprime(){
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf) {
+        this(nome);
+        this.cpf = cpf;
+    }
+
+    public void imprime() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Cpf: " + this.cpf);
         System.out.println("Rua: " + this.endereco.getRua());

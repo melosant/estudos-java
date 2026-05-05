@@ -1,7 +1,15 @@
 package academy.devdojo.maratonajava.javacore.Hheranca.domain;
 
-public class Funcionario extends Pessoa{
+public class Funcionario extends Pessoa {
     private double salario;
+
+    public Funcionario(String nome) {
+        super(nome);
+    }
+
+    public Funcionario(String nome, String cpf) {
+        super(nome, cpf);
+    }
 
     public void imprime() {
         // super faz referencia à superclasse, assim chamando o método imprime e sobrescevendo.
