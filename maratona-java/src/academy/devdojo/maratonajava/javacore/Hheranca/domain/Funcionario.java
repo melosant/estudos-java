@@ -3,12 +3,19 @@ package academy.devdojo.maratonajava.javacore.Hheranca.domain;
 public class Funcionario extends Pessoa {
     private double salario;
 
+    // sobrescrevendo um construtor da superclasse, usa-se o super
     public Funcionario(String nome) {
         super(nome);
     }
 
     public Funcionario(String nome, String cpf) {
         super(nome, cpf);
+    }
+
+    // sobrescrevendo um construtor da própria classe, usa-se o this
+    public Funcionario(String nome, String cpf, double salario) {
+        this(nome, cpf);
+        this.salario = salario;
     }
 
     public void imprime() {

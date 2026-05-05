@@ -17,9 +17,8 @@ public class HerancaTest01 {
 
         System.out.println("-------------------");
 
-        Funcionario funcionario = new Funcionario("Maria", "222222222-22");
+        Funcionario funcionario = new Funcionario("Maria", "222222222-22", 15000);
         funcionario.setEndereco(endereco);
-        funcionario.setSalario(15000);
         funcionario.imprime();
         funcionario.contraCheque();
     }
