@@ -9,6 +9,11 @@ public class Funcionario extends Pessoa{
         System.out.println("Salário: R$" + this.salario);
     }
 
+    public void contraCheque() {
+        // acessando var nome como se fosse atributo da classe
+        System.out.println("Eu " + this.nome + " recebi o salário de R$" + this.salario);
+    }
+
     public double getSalario() {
         return salario;
     }
