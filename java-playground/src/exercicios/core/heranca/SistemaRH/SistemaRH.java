@@ -2,7 +2,6 @@ package exercicios.core.heranca.SistemaRH;
 
 import exercicios.core.heranca.SistemaRH.model.Desenvolvedor;
 import exercicios.core.heranca.SistemaRH.model.Endereco;
-import exercicios.core.heranca.SistemaRH.model.Funcionario;
 import exercicios.core.heranca.SistemaRH.model.TechLead;
 
 public class SistemaRH {
