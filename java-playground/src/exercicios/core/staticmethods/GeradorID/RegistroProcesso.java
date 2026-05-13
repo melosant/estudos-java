@@ -33,7 +33,7 @@ public class RegistroProcesso {
 
     public void exibirDadosProcesso(){
         System.out.println("\nNome: " + this.nomeResponsavel);
-        System.out.println("Id Processo: " + this.idProcesso);
+        System.out.println("Id ConfiguracoesSistema: " + this.idProcesso);
         System.out.println("Status: " + this.status);
     }
 }
